@@ -1,18 +1,18 @@
-// const promise  = new Promise((resolve,reject) => {
-//     let isAvailable = false;
-//     if(isAvailable){
-//         resolve("Successfully ordered your product")
-//     }else{
-//         reject("Currently out of stock")
-//     }
-// })
+const data  = new Promise((resolve,reject) => {
+    let isAvailable = false;
+    if(isAvailable){
+        resolve("Successfully ordered your product")
+    }else{
+        reject("Currently out of stock")
+    }
+})
 
-// console.log(promise);
+console.log(promise);
 
-// promise.then(data => console.log(data)).catch((error) => console.log(error))
+data.then(data => console.log(data)).catch((error) => console.log(error))
 
 
-// promise.then(console.log("Order successfully accepted"))
+data.then(console.log("Order successfully accepted"))
 
 
 const promise = new Promise((resolve, reject) => {
