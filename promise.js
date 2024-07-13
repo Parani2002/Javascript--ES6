@@ -1,7 +1,7 @@
 const data  = new Promise((resolve,reject) => {
     let isAvailable = false;
     if(isAvailable){
-        resolve("Successfully ordered your product")
+        resolve("Successfully ordered your productsssss")
     }else{
         reject("Currently out of stock")
     }
