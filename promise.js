@@ -27,11 +27,11 @@ const promise = new Promise((resolve, reject) => {
 promise
     .then(data => {
         console.log(data);
-        console.log("Order successfully accepted");
+        console.log("Order successfully accepted....");
     })
     .catch(error => {
         console.log(error);
-        console.log("Order could not be processed");
+        console.log("Order could not be processed.....");
     });
 
 
