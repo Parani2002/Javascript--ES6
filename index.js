@@ -35,25 +35,27 @@ const maxValue = list3.reduce((max, curr) => {
 console.log(maxValue);
 
 
-const calcBonus = (salary) => salary * 0.05
-console.log(calcBonus(5000));
+// const calcBonus = (salary) => salary * 0.05
+// console.log(calcBonus(5000));
 
 
-const useState = (value) => {
-    let state = value;
-    function setData (newValue)  {
-        state = newValue;
+// const useState = (value) => {
+//     let state = value;
+//     function setData (newValue)  {
+//         state = newValue;
        
-    };
+//     };
    
-    return [state, setData]
-}
+//     return [state, setData]
+// }
 
-const [state, setData] = useState(23);
-console.log(state);
-setData(500);
-console.log(state);
-
-
+// const [state, setData] = useState(23);
+// console.log(state);
+// setData(500);
+// console.log(state);
 
 
+
+console.log(name);
+
+var name= 'fkjr';
